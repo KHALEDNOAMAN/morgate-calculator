@@ -1,0 +1,17 @@
+.page {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+}
+
+/* Clears the fixed navbar */
+.page__main {
+  flex: 1;
+  padding-top: var(--header-height);
+}
+
+/* Keeps scrollToSection targets clear of the fixed navbar */
+.page__main > [id] {
+  scroll-margin-top: calc(var(--header-height) + var(--space-md));
+}

@@ -1,0 +1,403 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "secondary-fixed": "#e5e2e1", "tertiary-fixed-dim": "#c6c6c7", "on-primary-container": "#636565", "on-tertiary-fixed": "#1a1c1c", "outline-variant": "#444748", "inverse-on-surface": "#2f3131", "error": "#ffb4ab", "secondary-container": "#474746", "error-container": "#93000a", "primary-fixed": "#e2e2e2", "on-primary-fixed": "#1a1c1c", "on-tertiary-fixed-variant": "#454747", "on-error": "#690005", "surface-container-low": "#1a1c1c", "surface-dim": "#121414", "on-primary-fixed-variant": "#454747", "primary-fixed-dim": "#c6c6c7", "inverse-primary": "#5d5f5f", "on-tertiary": "#2f3131", "on-secondary": "#313030", "on-background": "#e3e2e2", "on-surface": "#e3e2e2", "tertiary-fixed": "#e2e2e2", "tertiary": "#ffffff", "on-secondary-fixed-variant": "#474746", "outline": "#8e9192", "surface-tint": "#c6c6c7", "surface-container-lowest": "#0d0e0f", "background": "#121414", "on-surface-variant": "#c4c7c8", "surface-variant": "#343535", "on-secondary-fixed": "#1c1b1b", "surface-container-high": "#292a2a", "tertiary-container": "#e2e2e2", "on-primary": "#2f3131", "surface-container": "#1e2020", "surface-bright": "#383939", "on-error-container": "#ffdad6", "secondary-fixed-dim": "#c8c6c5", "secondary": "#c8c6c5", "surface-container-highest": "#343535", "on-secondary-container": "#b7b5b4", "primary": "#ffffff", "primary-container": "#e2e2e2", "on-tertiary-container": "#636565", "surface": "#121414", "inverse-surface": "#e3e2e2" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "md": "16px", "margin-mobile": "16px", "sm": "8px", "xl": "40px", "margin-desktop": "64px", "lg": "24px", "gutter": "20px", "unit": "4px", "xs": "4px" }, "fontFamily": { "display": ["Inter"], "button": ["Inter"], "body-md": ["Inter"], "label-caps": ["Inter"], "headline-lg": ["Inter"], "display-mobile": ["Inter"], "body-lg": ["Inter"] }, "fontSize": { "display": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600" }], "button": ["14px", { "lineHeight": "20px", "letterSpacing": "0.08em", "fontWeight": "600" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "display-mobile": ["32px", { "lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }] } } } };</script></head><body class="bg-background font-body-md text-on-background"><header class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.15)]"><div class="h-20 max-w-[1200px] mx-auto px-margin-desktop flex items-center justify-between"><div class="flex items-center gap-sm"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQMgFqXeBGy4Aum0bU-iDFOIUxj__v5H7ZOulkm_emgYjNP-ckHvzob6936oOhT2g8gDSrL-ApoCtbZfWqBN6q4Wo3c5ooQmT484wGp-X8DbOhanzpfezBGaHLLASyVKsByWtCz1AcONq44tUUz_66FcDHcOue6WS-YxryASmL0nx3y8LnUkPja_kHX1V9HdSQyjUBCWxcvD8b1AEvkM6p7b4VA_4tYs6hJyLERYIsqAIRvEj5htHnPB66Ts_8xEFTkA" alt="DP REAL ESTATE" class="h-10 w-auto object-contain"></div><nav class="hidden md:flex items-center gap-xl" data-active-classes="text-primary font-bold"><a aria-current="page" class="transition-colors text-primary font-bold" data-path="mortgage-calculator" href="#">CALCULATORS</a><a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors" data-path="properties" href="#">PROPERTIES</a><a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors" data-path="about-us" href="#">ABOUT US</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-4"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></nav></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<div class="max-w-[1100px] mx-auto w-full px-margin-desktop py-xl">
+<div class="mb-xl max-w-2xl">
+<h1 class="font-display text-display text-primary uppercase mb-sm">Calculate Your Mortgage in Dubai Instantly</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+        Use our advanced calculator to estimate your monthly payments. Adjust the parameters below to find a financing structure that aligns with your investment strategy.
+      </p>
+</div>
+<div class="grid grid-cols-12 gap-xl relative">
+<!-- Calculator Inputs -->
+<div class="col-span-7 flex flex-col gap-lg">
+<!-- Residency Status Tabs -->
+<div class="flex flex-col gap-sm">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Residency Status</label>
+<div class="flex w-full bg-surface-container-low rounded-DEFAULT p-[4px] relative" id="residency-tabs">
+<div class="absolute left-[4px] top-[4px] bottom-[4px] w-[calc(50%-4px)] bg-primary rounded-DEFAULT transition-transform duration-300 ease-out" id="tab-indicator"></div>
+<button class="flex-1 relative z-10 py-sm font-button text-button text-on-primary text-center tab-btn active" data-index="0">Resident</button>
+<button class="flex-1 relative z-10 py-sm font-button text-button text-on-surface-variant text-center tab-btn" data-index="1">Non-Resident</button>
+</div>
+</div>
+<!-- Purchase Price -->
+<div class="flex flex-col gap-sm bg-surface-container-low p-md rounded-DEFAULT shadow-sm">
+<div class="flex justify-between items-end">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Purchase Price (AED)</label>
+<input class="bg-transparent text-right font-headline-lg text-headline-lg text-primary focus:outline-none w-32 border-b border-outline-variant focus:border-primary transition-colors" type="text" value="2,500,000">
+</div>
+<div class="relative w-full h-8 flex items-center group">
+<div class="absolute w-full h-[4px] bg-surface-variant rounded-full overflow-hidden">
+<div class="absolute h-full bg-primary w-[30%]"></div>
+</div>
+<input class="w-full absolute opacity-0 cursor-pointer h-full z-10" max="10000000" min="500000" type="range" value="2500000">
+<div class="absolute w-[20px] h-[20px] bg-primary rounded-full left-[30%] -translate-x-1/2 pointer-events-none group-hover:ring-4 ring-primary/20 transition-all"></div>
+</div>
+<div class="flex justify-between font-label-caps text-label-caps text-on-surface-variant/50">
+<span class="">500K</span>
+<span class="">10M+</span>
+</div>
+</div>
+<!-- Down Payment -->
+<div class="flex flex-col gap-sm bg-surface-container-low p-md rounded-DEFAULT shadow-sm">
+<div class="flex justify-between items-end">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Down Payment</label>
+<div class="flex items-baseline gap-sm">
+<span class="font-headline-lg text-headline-lg text-primary">500,000</span>
+<span class="font-body-md text-body-md text-on-surface-variant">(20%)</span>
+</div>
+</div>
+<div class="relative w-full h-8 flex items-center group">
+<div class="absolute w-full h-[4px] bg-surface-variant rounded-full overflow-hidden">
+<div class="absolute h-full bg-primary w-[20%]"></div>
+</div>
+<input class="w-full absolute opacity-0 cursor-pointer h-full z-10" max="80" min="20" type="range" value="20">
+<div class="absolute w-[20px] h-[20px] bg-primary rounded-full left-[20%] -translate-x-1/2 pointer-events-none group-hover:ring-4 ring-primary/20 transition-all"></div>
+</div>
+<div class="flex justify-between font-label-caps text-label-caps text-on-surface-variant/50">
+<span class="">20%</span>
+<span class="">80%</span>
+</div>
+</div>
+<!-- Loan Period -->
+<div class="flex flex-col gap-sm bg-surface-container-low p-md rounded-DEFAULT shadow-sm">
+<div class="flex justify-between items-end">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Loan Period (Years)</label>
+<input class="bg-transparent text-right font-headline-lg text-headline-lg text-primary focus:outline-none w-16 border-b border-outline-variant focus:border-primary transition-colors" type="text" value="25">
+</div>
+<div class="relative w-full h-8 flex items-center group">
+<div class="absolute w-full h-[4px] bg-surface-variant rounded-full overflow-hidden">
+<div class="absolute h-full bg-primary w-[100%]"></div>
+</div>
+<input class="w-full absolute opacity-0 cursor-pointer h-full z-10" max="25" min="5" type="range" value="25">
+<div class="absolute w-[20px] h-[20px] bg-primary rounded-full left-[100%] -translate-x-1/2 pointer-events-none group-hover:ring-4 ring-primary/20 transition-all"></div>
+</div>
+<div class="flex justify-between font-label-caps text-label-caps text-on-surface-variant/50">
+<span class="">5 Yrs</span>
+<span class="">25 Yrs</span>
+</div>
+</div>
+<!-- Interest Rate -->
+<div class="flex flex-col gap-sm bg-surface-container-low p-md rounded-DEFAULT shadow-sm">
+<div class="flex justify-between items-end">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Interest Rate (%)</label>
+<input class="bg-transparent text-right font-headline-lg text-headline-lg text-primary focus:outline-none w-20 border-b border-outline-variant focus:border-primary transition-colors" type="text" value="3.99">
+</div>
+<div class="relative w-full h-8 flex items-center group">
+<div class="absolute w-full h-[4px] bg-surface-variant rounded-full overflow-hidden">
+<div class="absolute h-full bg-primary w-[40%]"></div>
+</div>
+<input class="w-full absolute opacity-0 cursor-pointer h-full z-10" max="10" min="1" step="0.01" type="range" value="3.99">
+<div class="absolute w-[20px] h-[20px] bg-primary rounded-full left-[40%] -translate-x-1/2 pointer-events-none group-hover:ring-4 ring-primary/20 transition-all"></div>
+</div>
+<div class="flex justify-between font-label-caps text-label-caps text-on-surface-variant/50">
+<span class="">1%</span>
+<span class="">10%</span>
+</div>
+</div>
+</div>
+<!-- Results & Lead Gen (Sticky Sidebar) -->
+<div class="col-span-5 relative">
+<div class="sticky top-24 bg-surface-container shadow-xl p-lg rounded-DEFAULT flex flex-col gap-lg border border-outline-variant/30">
+<div class="flex flex-col gap-xs text-center border-b border-outline-variant/30 pb-lg">
+<h2 class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">Est. Monthly Payment</h2>
+<div class="font-display text-display text-primary">5,062 <span class="font-headline-lg text-headline-lg">AED</span></div>
+<div class="font-body-md text-body-md text-on-surface-variant/80 mt-2">Based on an interest rate of 3.99%</div>
+</div>
+<div class="flex flex-col gap-md pt-sm">
+<h3 class="font-label-caps text-label-caps text-primary uppercase text-center">Check Your Eligibility</h3>
+<div class="flex flex-col gap-md">
+<div class="flex flex-col gap-xs">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Full Name</label>
+<input class="w-full bg-surface p-sm font-body-md text-body-md text-primary border border-outline-variant rounded-DEFAULT focus:outline-none focus:border-primary transition-colors placeholder:text-on-surface-variant/30" placeholder="John Doe" type="text">
+</div>
+<div class="flex flex-col gap-xs">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Phone Number</label>
+<input class="w-full bg-surface p-sm font-body-md text-body-md text-primary border border-outline-variant rounded-DEFAULT focus:outline-none focus:border-primary transition-colors placeholder:text-on-surface-variant/30" placeholder="+971 50 123 4567" type="tel">
+</div>
+<div class="flex flex-col gap-xs">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Email Address</label>
+<input class="w-full bg-surface p-sm font-body-md text-body-md text-primary border border-outline-variant rounded-DEFAULT focus:outline-none focus:border-primary transition-colors placeholder:text-on-surface-variant/30" placeholder="john@example.com" type="email">
+</div>
+</div>
+<button class="w-full bg-primary text-on-primary font-button text-button uppercase py-md rounded-DEFAULT hover:bg-primary/90 hover:shadow-[0_0_12px_rgba(255,255,255,0.15)] transition-all mt-sm">
+              Submit Request
+            </button>
+<p class="font-label-caps text-[10px] text-center text-on-surface-variant/60 leading-tight">
+              By submitting, you agree to our Terms of Service and Privacy Policy. A representative will contact you within 24 hours.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- FAQ Section -->
+<div class="w-full bg-surface py-xl border-t border-outline-variant/20">
+<div class="max-w-[800px] mx-auto w-full px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-xl">
+<h2 class="font-display text-display text-primary uppercase">FREQUENTLY ASKED <span class="font-light text-on-surface-variant">QUESTIONS</span></h2>
+</div>
+<div class="flex flex-col gap-xs w-full">
+<!-- FAQ 1 -->
+<div class="faq-item bg-surface-container-low rounded-DEFAULT overflow-hidden transition-all duration-300">
+<button class="w-full text-left px-md py-md flex justify-between items-center focus:outline-none">
+<span class="font-headline-lg text-body-lg font-semibold text-primary">How is interest calculated on a mortgage in the UAE?</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+</button>
+<div class="faq-content hidden px-md pb-md text-on-surface-variant font-body-md">
+        Most UAE mortgages use a reducing balance method. This means interest is charged only on the <strong>outstanding loan amount</strong>, not on the original principal amount.
+      </div>
+</div>
+<!-- FAQ 2 -->
+<div class="faq-item bg-surface-container-low rounded-DEFAULT overflow-hidden transition-all duration-300">
+<button class="w-full text-left px-md py-md flex justify-between items-center focus:outline-none">
+<span class="font-headline-lg text-body-lg font-semibold text-primary">How is interest calculated on a fixed rate mortgage?</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+</button>
+<div class="faq-content hidden px-md pb-md text-on-surface-variant font-body-md space-y-sm">
+<p class="">Interest is calculated as a percentage of the outstanding amount.</p>
+<p class="">Consider the following scenario as example:</p>
+<ul class="list-disc pl-md space-y-xs">
+<li class="">Loan Amount: AED 1,000,000</li>
+<li class="">Fixed Interest Rate: 5% annually (~0.417% monthly)</li>
+<li class="">Tenure: 25 years</li>
+<li class="">Interest ≈ AED 4170 per month (AED 1,000,000 *0.417%)</li>
+</ul>
+</div>
+</div>
+<!-- FAQ 3 -->
+<div class="faq-item bg-surface-container-low rounded-DEFAULT overflow-hidden transition-all duration-300">
+<button class="w-full text-left px-md py-md flex justify-between items-center focus:outline-none">
+<span class="font-headline-lg text-body-lg font-semibold text-primary">How to calculate principal and interest payments on a mortgage?</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+</button>
+<div class="faq-content hidden px-md pb-md text-on-surface-variant font-body-md space-y-sm">
+<p class="">A mortgage EMI has 2 parts:</p>
+<ul class="list-disc pl-md space-y-xs">
+<li class="">Interest Component: Outstanding Balance * Monthly Interest Rate</li>
+<li class="">Principal Repayment: EMI - interest</li>
+</ul>
+<p class="">Consider the following scenario as example:</p>
+<ul class="list-disc pl-md space-y-xs">
+<li class="">Loan Amount: AED 1,000,000</li>
+<li class="">Interest Rate: 5% annually (~0.417% monthly)</li>
+<li class="">Tenure: 25 years</li>
+<li class="">EMI: AED 6,000</li>
+</ul>
+<p class="font-bold text-primary mt-sm">Month 1</p>
+<ul class="list-disc pl-md space-y-xs">
+<li class="">Interest Component ≈ AED 4,167 (1,000,000 * 0.417%)</li>
+<li class="">Principal Repayment ≈ 6000 - 4167 ≈ AED 1,833</li>
+</ul>
+<p class="font-bold text-primary mt-sm">Month 2</p>
+<ul class="list-disc pl-md space-y-xs">
+<li class="">Interest Component ≈ AED 4,162 (998,167 * 0.417%)</li>
+<li class="">Principal Repayment ≈ 6000 - 4162 ≈ AED 1,838</li>
+</ul>
+<p class="">As the months proceed, the interest component reduces as the principal balance drops.</p>
+</div>
+</div>
+<!-- FAQ 4 -->
+<div class="faq-item bg-surface-container-low rounded-DEFAULT overflow-hidden transition-all duration-300">
+<button class="w-full text-left px-md py-md flex justify-between items-center focus:outline-none">
+<span class="font-headline-lg text-body-lg font-semibold text-primary">What documents do I need to apply for a mortgage in Dubai?</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+</button>
+<div class="faq-content hidden px-md pb-md text-on-surface-variant font-body-md space-y-sm">
+<p class="">Basic Identity Documents</p>
+<ul class="list-disc pl-md space-y-xs">
+<li class="">Residents / UAE Nationals: Passport, Resident Visa (if resident), EID</li>
+<li class="">Non-residents: Passport, proof of address in home country</li>
+</ul>
+<p class="mt-sm">Income and Financial Documents</p>
+<ul class="list-disc pl-md space-y-xs">
+<li class="">Salaried Individuals: Salary certificate (issued within 30 days), last 3 to 6 months' pay slips, last 6 months' bank statements</li>
+<li class="">Self-employed Individuals: Trade license, MOA, Company bank statements (6–12 months), Personal bank statements, Audited financials (usually last 2 years)</li>
+</ul>
+<p class="mt-sm">Property Documents (for final approval)</p>
+<ul class="list-disc pl-md space-y-xs">
+<li class="">SPA / MOU, title deed (ready property) or Oqood (off-plan), No Objection Certificate (NOC) from developer (if applicable), property valuation report, bank mortgage offer letter.</li>
+</ul>
+<p class="mt-sm">Application and Supporting Documents</p>
+<ul class="list-disc pl-md space-y-xs">
+<li class="">Completed mortgage application form, proof of address (utility bill / tenancy contract in some cases), Power of Attorney (if someone is applying on your behalf).</li>
+</ul>
+</div>
+</div>
+<!-- FAQ 5 -->
+<div class="faq-item bg-surface-container-low rounded-DEFAULT overflow-hidden transition-all duration-300">
+<button class="w-full text-left px-md py-md flex justify-between items-center focus:outline-none">
+<span class="font-headline-lg text-body-lg font-semibold text-primary">Can foreigners get a mortgage in Dubai?</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+</button>
+<div class="faq-content hidden px-md pb-md text-on-surface-variant font-body-md space-y-sm">
+<p class="">Yes – Foreigners (both UAE residents and non-residents) can get a mortgage in Dubai. In fact, the system is well-developed for international buyers, but the conditions are stricter compared to UAE nationals.</p>
+<p class="">Requirements/conditions are listed as, but not limited to the below:</p>
+<ul class="list-disc pl-md space-y-xs">
+<li class="">Minimum age: 21 years</li>
+<li class="">Maximum age (at loan maturity): 65 for salaried, and 70 for self-employed.</li>
+<li class="">Property must be in approved freehold areas.</li>
+<li class="">Stable employment or business income</li>
+<li class="">Clean credit history</li>
+<li class="">Debt Burden Ratio (DBR): Total EMIs ≤ 50% of monthly income</li>
+</ul>
+</div>
+</div>
+<!-- FAQ 6 -->
+<div class="faq-item bg-surface-container-low rounded-DEFAULT overflow-hidden transition-all duration-300">
+<button class="w-full text-left px-md py-md flex justify-between items-center focus:outline-none">
+<span class="font-headline-lg text-body-lg font-semibold text-primary">Is there any interest rate difference by residency?</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+</button>
+<div class="faq-content hidden px-md pb-md text-on-surface-variant font-body-md">
+        Yes – UAE residents generally get better rates.
+      </div>
+</div>
+<!-- FAQ 7 -->
+<div class="faq-item bg-surface-container-low rounded-DEFAULT overflow-hidden transition-all duration-300">
+<button class="w-full text-left px-md py-md flex justify-between items-center focus:outline-none">
+<span class="font-headline-lg text-body-lg font-semibold text-primary">How to use our mortgage calculator</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 faq-icon">expand_more</span>
+</button>
+<div class="faq-content hidden px-md pb-md text-on-surface-variant font-body-md space-y-sm">
+<ul class="list-disc pl-md space-y-xs">
+<li class=""><span class="font-bold text-primary">Enter Property Price:</span> Based on your chosen Binghatti property or custom input.</li>
+<li class=""><span class="font-bold text-primary">Choose Down Payment Percentage:</span> Adjust between 15% to 30% depending on UAE guidelines.</li>
+<li class=""><span class="font-bold text-primary">Select Loan Term (in Years):</span> From 5 to 25 years</li>
+<li class=""><span class="font-bold text-primary">Input Interest Rate:</span> Average UAE mortgage rates range between 3% and 5%</li>
+<li class=""><span class="font-bold text-primary">View Monthly Payment Instantly:</span> Automatic calculation of principal + interest</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Express Interest Section -->
+<div class="w-full relative min-h-[600px] flex flex-col md:flex-row bg-background">
+<div class="w-full md:w-1/2 p-xl md:p-[80px] flex flex-col justify-center z-10 bg-background md:bg-transparent md:bg-gradient-to-r from-background via-background to-transparent">
+<div class="max-w-[400px] md:ml-auto md:mr-xl w-full">
+<h2 class="font-display text-[48px] md:text-[64px] leading-[1.1] text-primary uppercase mb-xl">
+<span class="font-bold">EXPRESS</span><br>
+<span class="font-light text-on-surface-variant">YOUR</span><br>
+<span class="font-light text-on-surface-variant">INTEREST</span>
+</h2>
+<div class="flex flex-col gap-md">
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors flex items-center justify-between border-b border-outline-variant/30 pb-sm" href="#">
+          FIND A SALES BOUTIQUE
+          <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors flex items-center justify-between border-b border-outline-variant/30 pb-sm" href="#">
+          DISCOVER THE COLLECTION
+          <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+<div class="w-full md:w-1/2 relative flex flex-col justify-center p-xl md:p-[80px]">
+<!-- Background Image -->
+<div class="absolute inset-0 z-0">
+<img alt="Dubai Skyscraper" class="w-full h-full object-cover opacity-30 md:opacity-50 mix-blend-screen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYYTuw-NjYzFrU32FIQ-Pw400hcnLvSZsYa4YjYK8fik5b3iC5_Hv_2bt_euMEFJj6fZv0XKZQLf4PjUsQzo0cq47H50tef3r7UFLHh4l8AJS-QwrsJnF95i8wmfhPVLUANsiLCxAlfRVTU-7LB-w9u9y-IbmlF0h8jyYkvH5W5tNXITg_5j_iR1_RopuimEH2q6s5PWEtWXucIv82Vx2ADMalmA-PzpnG0dkyEzwtfV2jLVh6V0B5">
+<div class="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent md:bg-gradient-to-l md:from-transparent md:via-background/50 md:to-background"></div>
+</div>
+<!-- Form -->
+<div class="relative z-10 max-w-[400px] w-full md:ml-xl">
+<form class="flex flex-col gap-lg">
+<div class="flex flex-col gap-xs">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">NAME</label>
+<input class="w-full bg-transparent border-b border-outline-variant py-sm text-primary focus:outline-none focus:border-primary transition-colors font-body-md" type="text">
+</div>
+<div class="flex flex-col gap-xs">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest invisible">MOBILE</label>
+<div class="flex gap-md border-b border-outline-variant focus-within:border-primary transition-colors">
+<div class="flex items-center gap-xs py-sm cursor-pointer">
+<span class="text-primary font-body-md">+971</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[16px]">expand_more</span>
+</div>
+<input class="w-full bg-transparent py-sm text-primary focus:outline-none font-body-md placeholder:text-on-surface-variant uppercase font-label-caps text-label-caps tracking-widest" placeholder="MOBILE" type="tel">
+</div>
+</div>
+<div class="flex flex-col gap-xs">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">EMAIL</label>
+<input class="w-full bg-transparent border-b border-outline-variant py-sm text-primary focus:outline-none focus:border-primary transition-colors font-body-md" type="email">
+</div>
+<div class="mt-xl">
+<p class="font-body-md text-[12px] text-on-surface-variant/60 mb-md">
+            By submitting, you agree to our <a class="underline hover:text-primary" href="#">terms &amp; conditions*</a>
+</p>
+<button class="w-full bg-gradient-to-r from-surface-variant to-surface-bright border border-outline-variant/30 text-primary font-button text-button uppercase py-md rounded-DEFAULT hover:shadow-[0_0_15px_rgba(255,255,255,0.1)] transition-all tracking-widest" type="submit">
+            MEET OUR BRAND AMBASSADOR
+          </button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabs = document.querySelectorAll('.tab-btn');
+    const indicator = document.getElementById('tab-indicator');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Update active class
+        tabs.forEach(t => {
+          t.classList.remove('text-on-primary');
+          t.classList.add('text-on-surface-variant');
+        });
+        tab.classList.add('text-on-primary');
+        tab.classList.remove('text-on-surface-variant');
+
+        // Move indicator
+        const index = tab.getAttribute('data-index');
+        indicator.style.transform = `translateX(${index * 100}%)`;
+      });
+    });
+
+    // Basic range slider visual update logic (placeholder for actual calculation)
+    const ranges = document.querySelectorAll('input[type="range"]');
+    ranges.forEach(range => {
+      range.addEventListener('input', (e) => {
+        const val = e.target.value;
+        const min = e.target.min;
+        const max = e.target.max;
+        const percentage = ((val - min) / (max - min)) * 100;
+        
+        const container = e.target.parentElement;
+        const fill = container.querySelector('.bg-primary.absolute.h-full');
+        const handle = container.querySelector('.bg-primary.rounded-full.absolute');
+        
+        fill.style.width = `${percentage}%`;
+        handle.style.left = `${percentage}%`;
+      });
+    });
+
+    // FAQ Accordion Logic
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const btn = item.querySelector('button');
+      const content = item.querySelector('.faq-content');
+      const icon = item.querySelector('.faq-icon');
+      
+      btn.addEventListener('click', () => {
+        const isOpen = !content.classList.contains('hidden');
+        
+        // Close all
+        faqItems.forEach(otherItem => {
+          otherItem.querySelector('.faq-content').classList.add('hidden');
+          otherItem.querySelector('.faq-icon').classList.remove('rotate-180');
+          otherItem.classList.remove('bg-surface-variant');
+        });
+
+        // Toggle current
+        if (!isOpen) {
+          content.classList.remove('hidden');
+          icon.classList.add('rotate-180');
+          item.classList.add('bg-surface-variant');
+        }
+      });
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/20 py-xl mt-0"><div class="max-w-[1200px] mx-auto px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-lg"><div class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">© 2024 PrimeMortgage. High-End Financial Precision.</div><div class="flex gap-md"><span class="material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer">share</span><span class="material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer">public</span><span class="material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer">mail</span></div></div></footer>
+
+</body></html>
